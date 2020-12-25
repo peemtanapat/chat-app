@@ -1,0 +1,29 @@
+{
+    "name": "chat-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/app.js",
+        "dev": "nodemon ./src/app.js",
+        "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    },
+    "author": "peemtanapat",
+    "license": "ISC",
+    "dependencies": {
+        "bad-words": "^3.0.4",
+        "express": "^4.17.1",
+        "socket.io": "^3.0.4"
+    },
+    "devDependencies": {
+        "env-cmd": "^10.1.0",
+        "nodemon": "^2.0.6",
+        "prettier": "^2.2.1"
+    }
+}
